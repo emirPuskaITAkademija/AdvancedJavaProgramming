@@ -8,8 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PersonDAO {
-
-
     List<Person> personList = new ArrayList<>();
 
     public List<Person> readPersonList() {

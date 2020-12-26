@@ -20,7 +20,7 @@ public class PersonExecutor {
     public static void main(String[] args) {
         PersonDAO personDAO = new PersonDAO();
         List<Person> personList = personDAO.readPersonList();
-        //printPersons(personList);
+        //consumeTestedPersons(personList);
         //printPeople(personList, p->true);
         processPeople(personList, p -> true, p -> System.out.println(p));
         System.out.println();

@@ -38,13 +38,12 @@ public class Person {
         LocalDate now = LocalDate.now();
         //instncne funkcije
         Period periodOdRodjenja = birthday.until(now);
-        int years = periodOdRodjenja.getDays();
+        int years = periodOdRodjenja.getYears();
         return years;
     }
 
     @Override
     public String toString() {
-        super.toString();
         return name + " " + surname + " , rođen: " + birthday.toString() + ", spol: " + gender.toString();
     }
 }
