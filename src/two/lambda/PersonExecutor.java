@@ -2,7 +2,7 @@ package two.lambda;
 
 import two.lambda.dao.PersonDAO;
 import two.lambda.model.Gender;
-import two.lambda.model.Person;
+import four.functional.dao.Person;
 import two.lambda.model.PersonChecker;
 
 import java.util.List;

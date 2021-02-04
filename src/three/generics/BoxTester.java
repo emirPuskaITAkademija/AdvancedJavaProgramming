@@ -1,10 +1,5 @@
 package three.generics;
 
-import two.lambda.model.Person;
-
-import java.util.ArrayList;
-import java.util.List;
-
 public class BoxTester {
     public static void main(String[] args) {
         //Boris String

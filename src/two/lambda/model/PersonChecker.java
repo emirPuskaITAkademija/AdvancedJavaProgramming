@@ -1,5 +1,7 @@
 package two.lambda.model;
 
+import four.functional.dao.Person;
+
 @FunctionalInterface
 public interface PersonChecker {
 

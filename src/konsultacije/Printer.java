@@ -1,7 +1,6 @@
 package konsultacije;
 
-import two.lambda.model.Gender;
-import two.lambda.model.Person;
+import four.functional.dao.Person;
 
 import java.util.List;
 import java.util.function.Consumer;

@@ -1,12 +1,10 @@
 package three.generics;
 
 import two.lambda.dao.PersonDAO;
-import two.lambda.model.Person;
+import four.functional.dao.Person;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
 
 /**
  * <li>1. Consumer<E></E></li>

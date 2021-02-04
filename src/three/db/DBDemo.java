@@ -11,8 +11,8 @@ import java.sql.*;
 public class DBDemo {
     public static void main(String[] args) {
         String username = "root";
-        String password = "";
-        String url = "jdbc:mysql://localhost:3306/person?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+        String password = "Admin2021!";
+        String url = "jdbc:mysql://localhost:3306/person?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false";
        try(Connection connection = DriverManager.getConnection(url, username, password);){
            Statement statement = connection.createStatement();
            String sqlUpit = "SELECT * FROM person";

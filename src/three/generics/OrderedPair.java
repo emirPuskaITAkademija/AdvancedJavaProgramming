@@ -1,6 +1,6 @@
 package three.generics;
 
-import two.lambda.model.Person;
+import four.functional.dao.Person;
 
 public class OrderedPair implements Pair<Double, Person> {
 

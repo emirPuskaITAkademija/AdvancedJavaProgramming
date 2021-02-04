@@ -1,7 +1,7 @@
 package two.lambda.dao;
 
 import two.lambda.model.Gender;
-import two.lambda.model.Person;
+import four.functional.dao.Person;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
